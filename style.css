@@ -1,0 +1,106 @@
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+/*header style logo and right links */
+ul {
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding: 0;
+    gap: 16px;
+    font-size: 20px;
+}
+a {
+    text-decoration-line: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logoPic {
+    padding: 40px;
+    width: 120px;
+    height: 140px;
+}
+
+.logo, .rightLinks {
+    display: flex;
+    align-items: center;
+}
+
+
+/*content page */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/*content style, text, button and img*/
+/*top*/
+.top {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.topLeft {
+    flex-direction: row;
+}
+
+
+/*info*/
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.infoHeader {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.boxPic {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*quote*/
+.quote {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    flex-direction: column;
+}
+
+.main, .firm {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firm {
+    text-align: right;
+}
+
+
+/*signup popup*/
+.SignUp {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
