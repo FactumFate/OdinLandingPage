@@ -3,6 +3,7 @@ body {
     margin-right: 60px;
     display: flex;
     flex-direction: column;
+    background-color: burlywood;
 }
 /*header style logo and right links */
 ul {
@@ -20,6 +21,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: cadetblue;
 }
 
 .logoPic {
@@ -31,6 +33,10 @@ a {
 .logo, .rightLinks {
     display: flex;
     align-items: center;
+}
+
+.rightLinks {
+    padding: 40px;
 }
 
 
@@ -49,6 +55,7 @@ a {
     margin-top: 24px;
     margin-bottom: 24px;
     justify-content: space-between;
+    background-color: cadetblue;
 }
 
 .topLeft {
@@ -73,6 +80,7 @@ a {
 .topImg {
     width: auto;
     height: 500px;
+    padding: 20px;
 }
 
 
@@ -82,6 +90,8 @@ a {
     flex-direction: column;
     margin-top: 24px;
     margin-bottom: 24px;
+    background-color: beige;
+    padding: 20px;
 }
 
 .infoHeader {
@@ -116,13 +126,13 @@ a {
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 .quote {
     max-width: 800px;
     margin: 10px;
     padding: 30px;
-    background: wheat;
 }
 
 .quoteText {
@@ -141,18 +151,24 @@ a {
 
 
 /*signup popup*/
-.signUp {
+.boxSignUp {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
     margin-top: 80px;
     margin-bottom: 80px;
+    padding: 20px;
+}
+
+.signUp {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     background: wheat;
     border-radius: 10px;
     padding: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 .leftSide {
